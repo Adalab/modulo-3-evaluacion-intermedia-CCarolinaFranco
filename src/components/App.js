@@ -90,9 +90,12 @@ function App() {
         <input type="text" name="character" onInput={handleAddingQuote} value={addedquotes.character}/>
         <button onClick={handleClickAddedQuote}>Anadir nueva frase</button>
       </form>
-    </div>
-  );
 
+      <footer>&copy; 2023 Friends Phrases</footer>
+
+    </div>
+     
+  );
 }
 
 export default App;
